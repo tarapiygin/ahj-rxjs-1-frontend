@@ -7,7 +7,7 @@ moment.locale('ru');
 
 export default class EmailWidget {
   constructor() {
-    this.url = 'http://localhost:7070/messages/unread';
+    this.url = 'https://ahj-rxjs-1-backend.herokuapp.com/messages/unread';
     this.containerEl = document.querySelector('.email-widget');
     this.messageListEl = this.containerEl.querySelector('.message-list');
     this.timestamp = '';
