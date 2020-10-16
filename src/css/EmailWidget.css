@@ -1,0 +1,29 @@
+.email-widget {
+  width: 100%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.email-widget_header {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.message {
+  border: 1px solid black;
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px 20px;
+}
+.message_email{
+  width: 30%;
+}
+.message_subject{
+  width: 40%;
+}
+.message_received{
+  width: 30%;
+  text-align: right;
+}
